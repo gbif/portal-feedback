@@ -17,7 +17,7 @@ The current responsibility areas are:
 * `portal`: issues that have to do with the presentation and bugs in behaviour.
 * `api`: issues related to GBIF's apis (image cache, registry, occurrence, directory etc.)
 * `content`: issues that are not about have we process the data, but about the data provided. Either by publishers or what we write in our CMS (Drupal).
-* question: helpdesk questions
+* `question: helpdesk questions
 
 Resolution labels are:
 
@@ -35,7 +35,7 @@ So the procedure is:
 This also means that for portal and api isues there is little point in starting a discussion on the issue before it has been moved.
 
 ## Content and questions
-Since these issues reside in the repo they will probably need more labels. We probably want to seperate content provided by publishers fomr Drupal content issues.
+Since these issues reside in the repo they will probably need more labels. We probably want to seperate content provided by publishers from Drupal content issues.
 
 ## Notifications
 You can change how and how often to be notified of activity here:
