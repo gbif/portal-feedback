@@ -17,7 +17,7 @@ The current responsibility areas are:
 * `portal`: issues that have to do with the presentation and bugs in behaviour.
 * `api`: issues related to GBIF's apis (image cache, registry, occurrence, directory etc.)
 * `content`: issues that are not about have we process the data, but about the data provided. Either by publishers or what we write in our CMS (Drupal).
-* `question: helpdesk questions
+* `question`: helpdesk questions
 
 Resolution labels are:
 
