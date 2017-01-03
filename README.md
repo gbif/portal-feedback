@@ -28,7 +28,7 @@ So the procedure is:
 
 * validate the issue.
 * add appropriate labels
-* (for portal and api) move to relevant repo and resolve
+* (for portal and api) move to relevant repo and resolve as duplicate with a link to the new issue
 
 This also means that for portal and api isues there is little point in starting a discussion on the issue before it has been moved.
 
