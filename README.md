@@ -32,6 +32,9 @@ So the procedure is:
 
 This also means that for portal and api isues there is little point in starting a discussion on the issue before it has been moved.
 
+## Content and questions
+Since these issues reside in the repo they will probably need more labels. We probably want to seperate content provided by publishers fomr Drupal content issues.
+
 ## Notifications
 You can change how and how often to be notified of activity here:
 https://github.com/settings/notifications
