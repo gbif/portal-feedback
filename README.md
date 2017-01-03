@@ -5,12 +5,12 @@ Content issues and helpdesk questions can stay in the repo for now.
 
 ## Flow
 
-The user creates an issue and classify it as well as they can with either: bug, content, question or idea.
+The user creates an issue and classifies it as well as they can with either: bug, content, question or idea.
 
 The issue is automatically labeled "Needs validation". The "Needs validation" is added to avoid spam being exposed on the website and to make sure issues are addressed.
 
 When removing "Needs validation" the issue should be assigned to a responsibility area or closed with a resolution label.
-The current responsibility areas are: portal, api, content, question.
+The current responsibility areas are:
 
 * portal: issues that have to do with the presentation and bugs in behaviour.
 * api: the portal is driven of our APIs. image cache, registry, occurrence, directory etc. issues related to the apis should be labeled as such.
