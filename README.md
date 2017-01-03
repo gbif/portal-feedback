@@ -30,6 +30,8 @@ So the procedure is:
 * add appropriate labels
 * (for portal and api) move to relevant repo and resolve
 
+This also means that for portal and api isues there is little point in starting a discussion on the issue before it has been moved.
+
 ## Notifications
 You can change how and how often to be notified of activity here:
 https://github.com/settings/notifications
