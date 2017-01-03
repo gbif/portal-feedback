@@ -1,28 +1,30 @@
-# Portal feedback
-This repository is used by the portal project to log user generated issues via the portal.
-From here issues will be moved to their relevant projects or otherwise closed.
-Content issues and helpdesk questions can stay in the repo for now.
+# GBIF.org feedback
+This repository is used by [GBIF.org](http://gbif.org) as users generate issues via the website.
+From here issues should be copied to their relevant projects (e.g. [checklistbank](https://github.com/gbif/checklistbank)) and then closed.
+Content issues and helpdesk questions stay in this repository until addressed.
+
+_It is our goal that issues in this repository are addressed and closed and no issues remain open._
 
 ## Flow
 
 The user creates an issue and classifies it as well as they can with either: bug, content, question or idea.
 
-The issue is automatically labeled "Needs validation". The "Needs validation" is added to avoid spam being exposed on the website and to make sure issues are addressed.
+The issue is automatically labeled `Needs validation`. The `Needs validation` is added to avoid spam being exposed on the website and to make sure issues are addressed.
 
-When removing "Needs validation" the issue should be assigned to a responsibility area or closed with a resolution label.
+When removing `Needs validation` the issue should be assigned to a responsibility area or closed with a resolution label.
 The current responsibility areas are:
 
-* portal: issues that have to do with the presentation and bugs in behaviour.
-* api: issues related to GBIF's apis (image cache, registry, occurrence, directory etc.)
-* content: issues that are not about have we process the data, but about the data provided. Either by publishers or what we write in our CMS (Drupal).
+* `portal`: issues that have to do with the presentation and bugs in behaviour.
+* `api`: issues related to GBIF's apis (image cache, registry, occurrence, directory etc.)
+* `content`: issues that are not about have we process the data, but about the data provided. Either by publishers or what we write in our CMS (Drupal).
 * question: helpdesk questions
 
 Resolution labels are:
 
-* done - ideally reference to commit
-* duplicate (refer to the duplicate)
-* invalid (cannot reproduce, incomplete info etc)
-* wontfix
+* `done` - ideally reference to commit
+* `duplicate` (refer to the duplicate)
+* `invalid` (cannot reproduce, incomplete info etc)
+* `wontfix`
 
 So the procedure is:
 
@@ -48,6 +50,6 @@ https://github.com/gbif/portal-feedback
 [see screenshot](https://gbif.box.com/s/wn685mdaxul687qo9d7x8gh4oiz4f78u)
 
 ## What will show on the site
-Issues that are labeled "content" and do not have a "Needs validation" label will be visible on the site on the page the issue was created.
+Issues that are labeled `content` and do not have a `Needs validation` label will be visible on the site on the page the issue was created.
 The fbitem[hash] refers to the url. 
-This isn't an ideal solution, but it works for now and seems to be robust when using hte Github search API.
+This isn't an ideal solution, but it works for now and seems to be robust when using the Github search API.
