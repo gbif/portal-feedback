@@ -13,8 +13,8 @@ When removing "Needs validation" the issue should be assigned to a responsibilit
 The current responsibility areas are:
 
 * portal: issues that have to do with the presentation and bugs in behaviour.
-* api: the portal is driven of our APIs. image cache, registry, occurrence, directory etc. issues related to the apis should be labeled as such.
-* content: this is issues that are not about have we process the data, but about the data provided. either by publishers or what we write in our CMS (Drupal).
+* api: issues related to GBIF's apis (image cache, registry, occurrence, directory etc.)
+* content: issues that are not about have we process the data, but about the data provided. Either by publishers or what we write in our CMS (Drupal).
 * question: helpdesk questions
 
 Resolution labels are:
