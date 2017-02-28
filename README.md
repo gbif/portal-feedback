@@ -33,6 +33,8 @@ So the procedure is:
 * (for portal and api) move to relevant repo and resolve as duplicate with a link to the new issue
 
 This also means that for portal and api isues there is little point in starting a discussion on the issue before it has been moved.
+## public labels
+content issues that are labelled `public relevance` is public
 
 ## Content and questions
 Since these issues reside in the repo they will probably need more labels. We probably want to seperate content provided by publishers from Drupal content issues.
