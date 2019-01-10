@@ -29,10 +29,10 @@ So the procedure is:
 * if the issue is a complete duplicate, close it with reference to the earlier issue.
 * (some issues are moved, this is more useful for ideas or requests for major changes.)
 
-## public labels
+## Public labels
 content issues that are labelled `public relevance` are public.
 
-## other labels
+## Other labels
 The label `blocked` is used when awaiting a response from the issue reporter, or data publisher.
 
 ## Data content, content and questions
