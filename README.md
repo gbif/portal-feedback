@@ -1,8 +1,9 @@
 # GBIF.org feedback
-This repository is used by [GBIF.org](http://www.gbif.org) as users generate issues via the website.
-From here issues might copied to their relevant projects (e.g. [checklistbank](https://github.com/gbif/checklistbank)) and then closed, or remain here until resolved.
+This repository collects feedback sent via the [GBIF.org](https://www.gbif.org) website as Github issues.
 
-Content and data content issues and helpdesk questions stay in this repository until addressed.
+From here issues might be moved to their relevant projects (e.g. [checklistbank](https://github.com/gbif/checklistbank)), but most remain here until resolved.
+
+Content, data content and question issues stay in this repository until addressed.
 
 _It is our goal that issues in this repository are addressed and closed and no issues remain open._
 
@@ -13,31 +14,26 @@ The user creates an issue and classifies it as well as they can with either: bug
 The issue is automatically labeled `Under review`. The `Under review` is added to avoid spam being exposed on the website and to make sure issues are addressed.
 
 When removing `Under review` the issue should be labelled according to the area responsible.
-The current responsibility areas are:
+The current broad responsibility areas are:
 
-* `portal`: issues that have to do with the presentation and bugs in behaviour.
-* `api`: issues related to GBIF's APIs (image cache, registry, occurrence, directory etc.)
+* `portal`: issues that have to do with presentation and bugs in the website.
+* `api`: issues related to GBIF's APIs (image cache, registry, occurrence, directory etc.), ingestion (crawling, interpreting, indexing) or downloads.
 * `data-content`: issues with data provided to us by publishers; typically requiring the publisher to resolve them.
 * `content`: issues with CMS data: text, images, articles, help and so on
 * `question`: helpdesk questions
 
-Resolution labels are:
-
-* `done` - ideally reference to commit
-* `duplicate` (refer to the duplicate)
-* `invalid` (cannot reproduce, incomplete info etc)
-* `wontfix`
-
 So the procedure is:
 
 * validate the issue.
-* add appropriate labels
-* (for portal and API) move to relevant repository if possible and resolve as duplicate with a link to the new issue
-
-This also means that for portal and API isues there is little point in starting a discussion on the issue before it has been moved.
+* add appropriate labels.
+* if the issue is a complete duplicate, close it with reference to the earlier issue.
+* (some issues are moved, this is more useful for ideas or requests for major changes.)
 
 ## public labels
-content issues that are labelled `public relevance` are public
+content issues that are labelled `public relevance` are public.
+
+## other labels
+The label `blocked` is used when awaiting a response from the issue reporter, or data publisher.
 
 ## Data content, content and questions
 Since these issues reside in the repo they will probably need more labels. Data content issues can be tagged with a country/region code.
@@ -55,6 +51,6 @@ https://github.com/gbif/portal-feedback
 [see screenshot](https://gbif.box.com/s/wn685mdaxul687qo9d7x8gh4oiz4f78u)
 
 ## What will show on the site
-Issues that are labeled `content` and do not have a `Under review` label will be visible on the site on the page the issue was created.
-The fbitem[hash] refers to the url. 
+Issues that are labeled `content` and do not have a `Under review` label will be visible on the site on the page the issue was created. The fbitem[hash] refers to the url. 
+
 This isn't an ideal solution, but it works for now and seems to be robust when using the Github search API.
