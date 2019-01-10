@@ -33,7 +33,7 @@ So the procedure is:
 content issues that are labelled `public relevance` are public.
 
 ## Other labels
-The label `blocked` is used when awaiting a response from the issue reporter, or data publisher.
+The label `Pending` is used when awaiting a response from the issue reporter, or data publisher.
 
 ## Data content, content and questions
 Since these issues reside in the repo they will probably need more labels. Data content issues can be tagged with a country/region code.
@@ -45,10 +45,13 @@ https://github.com/settings/notifications
 See all notifications here:
 https://github.com/notifications
 
-and ask to be notified by using the eye in the top here:
+And ask to be notified by using the eye in the top here:
 https://github.com/gbif/portal-feedback
 
 [see screenshot](https://gbif.box.com/s/wn685mdaxul687qo9d7x8gh4oiz4f78u)
+
+## Searching
+You can filter for labels with the usual interface, and you can also exclude labels, for example to see [all searches that aren't tagged API or backbone](https://github.com/gbif/portal-feedback/issues?page=3&q=is%3Aopen+is%3Aissue+-label%3Aapi+-label%3Abackbone+-label%3Aportal+-label%3Apending&utf8=%E2%9C%93).
 
 ## What will show on the site
 Issues that are labeled `content` and do not have a `Under review` label will be visible on the site on the page the issue was created. The fbitem[hash] refers to the url. 
