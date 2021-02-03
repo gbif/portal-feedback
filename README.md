@@ -53,7 +53,3 @@ https://github.com/gbif/portal-feedback
 ## Searching
 You can filter for labels with the usual interface, and you can also exclude labels, for example to see [all searches that aren't tagged API or backbone](https://github.com/gbif/portal-feedback/issues?page=3&q=is%3Aopen+is%3Aissue+-label%3Aapi+-label%3Abackbone+-label%3Aportal+-label%3Apending&utf8=%E2%9C%93).
 
-## What will show on the site
-Issues that are labeled `content` and do not have a `Under review` label will be visible on the site on the page the issue was created. The fbitem[hash] refers to the url. 
-
-This isn't an ideal solution, but it works for now and seems to be robust when using the Github search API.
